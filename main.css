@@ -1,0 +1,160 @@
+body {
+  background-color: #d7d7d7;
+}
+
+#main {
+  width: 50%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#mid {
+  display: inline-block;
+  width: 25%;
+}
+
+.boost {
+  width: 100px;
+  height: 75px;
+  background-color: #4bc90f;
+  border: 3px solid black;
+  list-style-type: none;
+  display: inline-grid;
+  margin-left: 6px;
+  margin-right: 6px;
+  margin-top: 6px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.boost:hover {
+  background-color: #3faa0c;
+}
+
+.binfo {
+  padding: 5px;
+  margin-top: -10px;
+  font-size: 11px;
+}
+
+.boost-head {
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+#side {
+  display: inline-block;
+  position: absolute;
+}
+
+#addons {
+  margin-left: 64.5%;
+}
+
+.addon {
+  width: 200px;
+  height: 90px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 3px solid black;
+  border-right: none;
+  margin-top: 5px;
+  list-style-type: none;
+  transition: width 0.4s, margin-left 0.4s;
+}
+
+.addon:hover {
+  margin-left: -15px;
+  width: 215px;
+  cursor: pointer;
+}
+
+@keyframes ani {
+  100% {margin-left: -15px;}
+  100% {width: 215px;}
+}
+
+.non-selectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.addon-head {
+  padding: 5px;
+  margin-top: -5px;
+}
+
+.info {
+  padding: 5px;
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+#btn {
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #00d441;
+  border-radius: 3px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background-color: #06b03b;
+}
+
+#btn:active {
+  background-color: #059030;
+}
+
+#num {
+  width: 200px;
+  height: 75px;
+  margin: 0 auto;
+  background-color: blue;
+  text-align: center;
+}
+
+#reset {
+  width: 100px;
+  height: 35px;
+  margin: 0 auto;
+  background-color: #1ed2e4;
+  border-radius: 3px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#reset:hover {
+  background-color: #04acbd;
+}
+
+#cps {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#count {
+  margin-top: 50px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+#restext {
+  margin-top: 10px;
+  text-align: center;
+}
+
+body {
+  font-family: arial;
+}
+
+.btntext {
+  margin-top: 10px;
+  text-align: center;
+}
