@@ -4,13 +4,18 @@ body {
 
 #main {
   width: 50%;
-  display: inline-block;
+  display: inline-grid;
   margin-top: 50px;
 }
 
 #mid {
-  display: inline-block;
+  display: inline-grid;
   width: 25%;
+}
+
+#boosts {
+  margin: 0;
+  padding: 0;
 }
 
 .boost {
@@ -43,7 +48,7 @@ body {
 }
 
 #side {
-  display: inline-block;
+  display: inline-grid;
   position: absolute;
   width: 24.85%;
 }
