@@ -45,10 +45,11 @@ body {
 #side {
   display: inline-block;
   position: absolute;
+  width: 24.85%;
 }
 
 #addons {
-  margin-left: 64.5%;
+  margin-left: 49.5%;
 }
 
 .addon {
