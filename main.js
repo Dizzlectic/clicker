@@ -1,3 +1,8 @@
+
+//fiks double boost shit
+//Tell hvor mange upgrades som er,
+//gang cps med antall upgrades hvis dobbel boost
+
 window.onload = function()
 {
   var click = document.getElementById("btn");
